@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class Command {
+package software.ulpgc.imageviewer;
+
+public interface Command {
+    void execute();
 }
