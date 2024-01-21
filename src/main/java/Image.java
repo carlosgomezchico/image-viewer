@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class Image {
+package software.ulpgc.imageviewer;
+
+public interface Image {
+    String name();
+    Image next();
+    Image prev();
 }
