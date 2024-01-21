@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class ImageLoader {
+package software.ulpgc.imageviewer;
+
+public interface ImageLoader {
+    Image load();
 }
